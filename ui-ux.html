@@ -372,6 +372,11 @@
          justify-content: space-between;
     
      }
+    @media screen and (max-width: 575px){
+        .cta-subscribe{
+          margin-top: 7px;
+      }
+    }
 
   @media only screen and (max-width: 444px) {
       .float-right--button {
@@ -391,7 +396,7 @@
     .container-items {
         padding-right: 1rem;
       }
-      
+    
       
  }
 
@@ -405,9 +410,7 @@
           
       }
 
-      #subscribe{
-          margin-top: 35px;
-      }
+
  }
  /*Ends here*/
     </style>
@@ -1068,7 +1071,7 @@
                             </p>
                             <form class="form-inline">
                                 <input type="text" class="form-control col-md-8" id="email">
-                                <button id="subscribe" type="submit" class="btn ml-1 pl-5 pr-5" style="background-color: #44CF6C; color: #fff;">Subscribe</button>
+                                <button type="submit" class="btn cta-subscribe" style="background-color: #44CF6C; color: #fff;">Subscribe</button>
                             </form>
                         </div>
                         <div class="col-md-4">
